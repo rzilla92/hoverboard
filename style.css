@@ -35,4 +35,5 @@ body {
 .square:hover{
   transition-duration: 0s;
   border-radius: 50%;
+  transform: rotate(45deg);
 }
