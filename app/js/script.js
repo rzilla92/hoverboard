@@ -255,7 +255,7 @@ const colors = ['#F44336',
 '#263238',
 '#000000']
 
-const SQUARES = 500
+const SQUARES = 400
 
 for(let i = 0; i < SQUARES; i++) {
     const square = document.createElement('div')
