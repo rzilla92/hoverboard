@@ -17,6 +17,8 @@ body {
 
 .title  {
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background-size: 200% 200%;
+  animation: gradient 1.5s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
@@ -78,4 +80,16 @@ body {
   50% {transform: rotate(20deg);}
   75% {transform: rotate(-5deg);}
   100% {transform: rotate(0deg);}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
